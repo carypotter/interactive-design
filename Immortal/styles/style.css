@@ -1,0 +1,53 @@
+body {
+  font-family:'EB Garamond', serif;
+  background: gray;
+  color: white;
+  text-align: center;
+  font-size: 14px;
+  line-height: 20px
+  margin: 100px
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  margin-bottom: 1em;
+}
+
+ol {
+  padding: 20px;
+  font-size: 14px;
+  text-align: left;
+}
+
+ul {
+  text-align: left;
+  padding: 40px;
+  color: white;
+  font-size: 12px;
+  letter-spacing: 1px
+}
+
+h1 {
+  font-family: 'Pinyon Script', cursive;
+  font-size: 2em;
+  background: gray;
+  padding: 50px;
+  border: 8px outset yellow;
+  margin: 50px 50px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px
+}
+
+h2 {
+  font-family: 'Pinyon Script', cursive;
+  font-size: 2em;
+  background: gray;
+  padding: 15px;
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
