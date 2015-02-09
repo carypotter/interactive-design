@@ -1,0 +1,129 @@
+/* STYLE ONE */
+
+body.one {
+  font-family: 'Old Standard TT', serif;
+  background: #00021C;
+}
+
+body.one h1 {
+  font-family: 'Old Standard TT', serif;
+  font-size: 4em;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  display: block;
+  font-weight: bold;
+  color: white;
+  display: block;
+  text-align: center
+
+}
+
+body.one h2 {
+  font-family: 'Old Standard TT', serif;
+  font-size: 2em;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  display: block;
+  font-weight: bold;
+  color: white;
+  display: block;
+  text-align: center
+
+}
+
+body.one p {
+  font-family: 'Old Standard TT', serif;
+  text-align: center;
+  background: #00021C;
+  color: white;
+  font-size: 22px;
+  text-align: justify;
+  line-height: 1.42857;
+
+}
+
+body.one .container {
+  width: 650px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* STYLE TWO */
+
+body.two {
+  font-family: 'Petit Formal Script', cursive;
+  text-rendering: optimizeLegibility;
+  background: white;
+  display: block;
+  margin: 15px;
+}
+
+body.two p {
+  font-size: 80px;
+  line-height: 1.15em;
+  -moz-hyphens: auto;-o-hyphens: auto;-webkit-hyphens: auto;-ms-hyphens: auto;-hyphens: auto;
+  margin-top:0;
+
+}
+
+body.two .title {
+  color: #ff263d;
+}
+
+/* STYLE THREE */
+body.three h1 {
+background: #fff;
+color: #0D1D32;
+font-size: 2.9em;
+font-weight: normal;
+line-height: 1.35;
+margin-top: -2.07em;
+margin-right: auto;
+margin-left: auto;
+padding-left: 15px;
+padding-right: 15px;
+-webkit-text-size-adjust: 100%;
+font-family: times, serif;
+width: 600px;
+text-align: left;
+}
+
+body.three p {
+background: #fff;
+color: #0D1D32;
+font-size: 2.9em;
+line-height: 1.35;
+margin-right: auto;
+margin-left: auto;
+padding-left: 15px;
+padding-right: 15px;
+-webkit-text-size-adjust: 100%;
+font-family: times, serif;
+width: 600px;
+text-align: left;
+}
+
+body.three a[data-url] { position: relative; display: inline; padding-top: 0.1em; }
+a[data-url]:after { content: "↪ " attr(data-url); position: absolute; top: -1em; left: 365px; font-size: 0.275em; white-space: nowrap; opacity: 0.4; 
+}
+
+body.three a {
+color: inherit;
+text-decoration: none;
+border-bottom: 0.1em solid;
+  -webkit-transition: color 200ms ease-in-out;
+     -moz-transition: color 200ms ease-in-out;
+       -o-transition: color 200ms ease-in-out;
+          transition: color 200ms ease-in-out; }
+a:hover { color: rgb(0, 255, 0); }
+}
+
+
+
+
+
+
+
+

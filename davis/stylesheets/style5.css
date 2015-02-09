@@ -1,0 +1,1249 @@
+/*
+Theme Name: HTMLGIANT
+Theme URI: http://htmlgiant.com/
+Description: Modified theme with a bunch of shit added on for the literature blog of future.
+Version: 3.2
+Author: Gene Morgan
+Tags: HTMLGIANT
+*/
+
+
+
+
+
+
+
+
+/* FONTS */
+
+body, .commentlist li, #commentform input, #commentform textarea, #commentform p, #sidebar, code {
+	font-family: "jaf-facitweb-1","jaf-facitweb-2", GillSans, Verdana, Sans-Serif;
+	-webkit-font-smoothing: subpixel-antialiased;
+}
+
+h1, h2, h3 {
+	font-family: "museo-slab-1","museo-slab-2", Arial, Helvetica, sans-serif;
+	font-weight: 800;
+	font-style: normal;
+	-webkit-font-smoothing: subpixel-antialiased;
+	}
+
+
+
+
+
+
+
+
+
+
+/* OVERALL LAYOUT */
+
+body {
+	background-attachment:fixed;
+	background-color: #000;
+	background-image: url(http://htmlgiant.com/images/sparkle.gif);
+	background-repeat: repeat;
+	font-size: 62.5%; /* Resets 1em to 10px */
+	line-height: 1.6em;
+	}
+	
+#page {
+	margin: 20px auto 60px;
+	padding: 10px 30px 30px;
+	width: 845px;
+	border: none;
+	background-color: none;
+	background-repeat: repeat;
+
+	}
+	
+#headerimg {
+	margin:0px 0 0px 1px;
+	float: left;
+	height: 49px;
+	display: block;
+	}
+	
+h1.sitetitle {
+	font-family:"jaf-facitweb-1","jaf-facitweb-2", sans-serif; 
+	font-size: 50px;
+	color: #fff;
+	font-weight: 200;
+	margin-top: 30px;
+}
+
+.sitetitle a:hover {
+	text-decoration: none;
+	
+}
+	
+/*.promoad + #headerimg {
+	margin:1px 0 0 1px;
+	}*/
+
+#content {
+	font-size: 1.5em;/*body copy*/ 
+	font-weight:300;
+	margin:0px;
+	
+	clear: both;
+	}
+
+	
+.narrowcolumn {
+	float: left;
+	padding: 0px 0 0px 0px;
+	margin: 0px 0 0;
+	width: 600px;
+	}
+
+.widecolumn {
+	float: left;
+	padding: 0px 0 0px 0px;
+	margin: 0px 0 0;
+	width: 600px;
+	}
+
+
+
+
+
+
+
+/*POSTS*/
+
+.post, .post-short, .post-feature, .post-reviews {
+	overflow: hidden;
+	float: left;
+	width: 600px;
+	padding: 30px 30px;
+	margin: 0px 5px 5px 0px;
+	
+
+	}
+
+.post {
+	background-color: #fff;
+	}
+	
+.post-short {
+	background-color: #feffd7;
+	}
+	
+	
+.post-short.sunday {
+	background-color: rgba(0,0,0,0.7);
+	border: 1px solid #fff;
+	width: 598px;
+	}
+	
+	
+	
+.post-feature {
+	background-color: #fff;
+	}
+	
+.post-reviews {
+	background-color: #fff;
+	}
+	
+.post-feature .entry-utility h3, .post-reviews .entry-utility h3 {
+	color: #737070;
+	margin-bottom: 30px;
+	border-bottom: 1px solid #737070;
+	}
+	
+.post-feature .entry-utility h3 a, .post-reviews .entry-utility h3 a {
+	color: #737070;
+	}
+	
+.post-feature .entry-utility h3 a:hover, .post-reviews .entry-utility h3 a:hover {
+	color: #c70add;
+	}
+
+#cat-top {
+	margin: 0px 5px 5px 0px;
+		padding-bottom: 30px;
+		}
+		
+
+
+	
+	
+/* BOOK ADS */
+
+#bookads{
+	width: 828px;
+	margin: 0 auto;
+	padding-bottom: 100px;
+	background-color: none;
+	}
+	
+#bookadss img {	
+	display: block;
+	margin: 0 auto;
+	}
+	
+
+
+/* MENU */
+
+.menu {
+	float: right;
+	margin: 0;
+	overflow: hidden;
+	width: 270px;
+	margin-top: 30px;
+
+	}
+	
+.menu a {
+	color:#fff;
+	font-weight: 300;
+	font-size: 14px;
+	}
+
+.menu ul {
+	list-style: none;
+	margin: 0 auto;
+	}
+	
+.menu li {
+	float:right;
+	padding: 8px 8px;
+	margin:0px;
+	}
+
+.menu a:hover{
+	color: #fff;
+	text-decoration: underline;
+	}
+	
+	
+
+
+
+
+
+
+
+/*SHORT POSTS*/
+
+.shortpost {
+
+	}
+
+.shortmeta {
+	font-size: 1.3em;
+	margin: 0px;
+	}
+
+	
+.narrowcolumn .shortentry p {
+	font-size: 1.5em;
+	margin: 20px 0;
+	line-height: 1.5em;
+
+	}
+	
+.widecolumn .shortentry p {
+	font-size: 1.5em;
+	margin: 0px 0 20px;
+	line-height: 1.5em;
+	}
+	
+.widecolumn .shortmeta {
+	font-size: 1.6em;
+	margin: 0px 0;
+	line-height: 1.5em;
+	}
+	
+.shortmetacomments {
+	font-size: 1em;
+	margin: 0px;
+	}
+
+.shortcomments {
+	position: static;
+	padding: 0px 3px 0px 3px;
+	float: right;
+	right: 0px;
+	top:0px;
+	}
+	
+	
+	
+	
+	
+	
+/*SUNDAY SERVICE*/
+
+.shortpostss {
+
+	}
+
+.shortmetass {
+	font-size: 1.3em;
+	margin: 0px;
+	}
+	
+p.sstitle {
+	font-size: 1.7em;
+	margin: 0px;
+	text-align: center;
+	
+}
+
+p.sstitle a {
+	color: #fff;
+	
+}	
+
+p.sstitle a:hover {
+	color: #c70add;
+	
+}	
+	
+h2.sunday  {
+	font-size: 1.7em;
+	margin: 0px;
+	text-align: center;
+	color: #fff;
+	}
+	
+h2.sunday a {
+	color: #fff;
+	}
+	
+h2.sunday a:hover {
+	color: #c70add;
+	}
+	
+	
+h2.sunday a:visited {
+	color: #fff;
+	}
+	
+.narrowcolumn .shortentryss p {
+	font-size: 1.1em;
+	margin: 20px 0;
+	line-height: 1.5em;
+	color: #fff;
+	}
+	
+.narrowcolumn .shortentryss .excerpt p {
+	font-size: 1.1em;
+	color:#000;
+}
+
+
+.widecolumn .shortentryss .excerpt p {
+	font-size: 1.1em;
+	color:#000;
+}
+
+.widecolumn h2.sunday  {
+	font-size: 2em;
+	margin: 0px;
+	text-align: center;
+	}
+	
+.widecolumn .shortentryss p {
+	font-size: 1.1em;
+	margin: 0px 0 20px;
+	line-height: 1.5em;
+	color: #fff;
+	}
+	
+.widecolumn .shortmetass {
+	font-size: 1.3em;
+	margin: 0px 0;
+	line-height: 1.5em;
+	}
+	
+.shortmetasscomments {
+	font-size: 1em;
+	margin: 0px;
+	color: #fff;
+	}
+
+.shortcommentsss {
+	position: static;
+	padding: 0px 3px 0px 3px;
+	text-align: center;
+	right: 0px;
+	top:0px;
+	}
+
+.bottomss {
+	
+	background-color: #fff;
+	padding:20px;
+}
+	
+	
+	
+/*EXCERPT*/	
+	
+.excerpt p {
+	line-height: 1.9em;
+	margin-bottom: 26px;	
+	color: #000;
+}
+
+.excerpt h3 {
+	font-size: 22px;
+	line-height: 1.9em;
+	margin-bottom: 35px;	
+}
+
+.excerpt small {
+	font-size: 10px;
+	}
+
+.excerpt {
+	background-color: #ffffff;
+	color: black;
+	border: 1px solid #000;
+	padding: 50px;
+	margin-bottom: 30px;
+	margin-top: 30px;
+
+	}
+
+.excerpt p.indent {
+    margin-left: 10px;
+    }
+
+	
+	
+	
+
+
+
+
+/*REVIEWS SECTION*/
+
+.reviewsection {
+background-color: #fff;
+overflow: hidden;
+float: left;
+width: 600px;
+padding: 5px 30px;
+margin: 0px 1px;
+border-top: 1px solid #fff;
+border-bottom: 1px solid #fff;
+}
+
+.reviewsection a {
+color: #c70add;
+text-decoration: none;
+}
+
+.reviewsection:hover {
+border-top: 1px solid #fff;
+border-bottom: 1px solid #fff;
+}
+
+.reviewsection a {
+	color: #000;
+	text-decoration: none;
+}
+
+.reviewsection:hover a {
+	color: #c70add;
+	text-decoration: none;
+}
+
+.reviewsection:hover p {
+	color: #c70add;
+	text-decoration: none;
+}
+
+.reviewauthor {
+width:200px;
+float: left;
+
+}
+
+.reviewname {
+width: 380px;
+float: right;
+}
+
+.authorname {
+	font-family: "jaf-facitweb-1","jaf-facitweb-2", GillSans, Verdana, Sans-Serif;
+	-webkit-font-smoothing: subpixel-antialiased;
+}
+
+.authorname a {
+	color: #000;
+	text-decoration: none;
+}
+
+.storyname {
+font-family: "museo-slab-1","museo-slab-2", Arial, Helvetica, sans-serif;
+-webkit-font-smoothing: subpixel-antialiased;
+font-weight: 800;
+font-size: 13px;
+}
+
+.bookname {
+font-size:11px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*VARIOUS STRUCTURAL*/
+	
+
+	
+.postheader-loop {
+	margin-bottom: 45px;
+	}
+
+.clear {
+	clear: both;
+	}
+
+#footer {
+	}
+
+#footer p {
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*ALL TXT*/
+
+.entry{
+    color: #000000;
+    padding: 0px 0;
+    text-align: left;
+	}
+	
+.entry::first-letter {
+
+	}
+	
+.narrowcolumn .entry {
+	line-height: 1.7em;
+	}
+
+.widecolumn .entry {
+	line-height: 1.5em;
+	margin-bottom: 100px;
+	}
+	
+.widecolumn .shortentry {
+	line-height: 1.5em;
+	margin-bottom: 100px;
+	}
+
+.narrowcolumn .entry-utility {
+	line-height: 1.5em;
+	}
+
+.widecolumn .entry-utility {
+	line-height: 1.5em;
+	margin-bottom: 30px;
+	}
+
+small, small a, small a:visited {
+	font-size: 1em;
+	color: #737070;
+	}
+	
+small a:hover {
+	color: #c70add;
+	}
+
+.smallmeta { /*date and time on index posts*/
+	font-size: .75em;
+	}
+
+.bigname {
+	font-size: 1.7em;
+	}
+		
+h1, h2, h3 {
+	font-weight: normal;
+	text-align: left;
+	}
+
+h1 {
+	font-size: 2em;
+	color: #fdfdfc;
+	}
+
+h2 {
+	font-size: 3.2em;
+	}
+	
+.post h2 {
+	margin-bottom: 0px;
+	font-size: 3.1em;
+	}
+
+h2.pagetitle {
+	margin-top: 0px;
+	text-align: left;
+	font-size: 1.6em;
+	color: #000000;
+	}
+	
+h3 {
+	font-size: 1.3em;
+	color: #000000;
+	}
+	
+h2, h2 a, h2 a:visited, h3 a, h3 a:visited {
+	color: #671371;
+	}
+	
+h1, h1 a, h1 a:hover, h1 a:visited, h2, h2 a, h2 a:hover, h2 a:visited, h3, h3a, h3 a:hover, h3 a:visited,  #wp-calendar caption, cite {
+	text-decoration: none;
+	}
+	
+#cat-top h2 {
+	font-size: 60px;
+	color: #000;
+	}
+
+.post#cat-top p {
+	color: #4d4d4d;
+	font-size: 16px;
+	line-height: 1.5em;
+	font-style: italic;
+	padding:0 0 10px;
+	}
+	
+code {
+	}
+
+acronym, abbr, span.caps {
+	font-size: 0.9em;
+	letter-spacing: .07em;
+	}
+
+a, h3 a:hover {
+	color: #c70add;
+	text-decoration: none;
+	}
+	
+a:hover, h2 a:hover {
+	color: #c70add;
+	text-decoration: none;
+	}
+	
+a:hover {
+	color: #4e4c34;
+	text-decoration: none;
+	}
+
+
+
+
+
+
+/*	HEADERS */
+
+h1 {
+	padding-top: 0px;
+	margin: 0;
+	}
+
+h2 {
+	margin: 5px 0 0;
+	line-height: 1em;
+	}
+
+h3 {
+	padding: 0;
+	margin: 0px 0 0;
+	}
+
+
+
+
+
+
+
+
+	
+
+
+/* IMAGES */
+p img {
+	padding: 0;
+	max-width: 100%;
+	border: 0px solid #600510;
+	}
+
+/*	Using 'class="alignright"' on an image will (who would've
+	thought?!) align the image to the right. And using 'class="centered',
+	will of course center the image. This is much better than using
+	align="center", being much more futureproof (and valid) */
+
+img.centered {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+img.alignright {
+	padding: 10px;
+	margin: 0 0 1px 8px;
+	display: inline;
+	}
+
+img.alignleft {
+	padding: 10px;
+	margin: 0 8px 1px 0;
+	display: inline;
+	
+	}
+	
+img.hover {
+	padding: 0px;
+	margin: 0 8px 1px 0;
+	display: inline;
+	background: transparent;
+	}
+
+.alignright {
+	float: right;
+	clear: both;
+	}
+
+.alignleft {
+	float: left;
+	clear: left;
+	}
+	
+
+
+
+
+
+
+
+
+/* LISTS */
+
+html>body .entry ul {
+	margin-left: 0px;
+	padding: 0 0 0 30px;
+	list-style: none;
+	padding-left: 10px;
+
+	}
+
+html>body .entry li {
+	margin: 7px 0 8px 0px;
+	}
+
+.entry ol {
+	padding: 0 0 0 35px;
+	margin: 0;
+	}
+
+.entry ol li {
+	margin: 0;
+	padding: 0;
+	}
+
+.postmetadata ul, .postmetadata li {
+	display: inline;
+	list-style-type: none;
+	list-style-image: none;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* COMMENTS */
+
+.dsq-comment-body {
+	font-size: 1.2em;
+	}
+
+.commentdiv {
+	margin-top: 50px;
+	}
+
+.alt {
+	margin: 0;
+	padding: 10px;
+	}
+
+.commentlist {
+	padding: 0;
+	text-align: left;
+	}
+
+.commentlist li {
+	margin: 15px 0 3px;
+	padding: 5px 10px 3px;
+	list-style: none;
+	}
+
+.commentlist p {
+	margin: 10px 5px 10px 0;
+	}
+
+#commentform p {
+	margin: 5px 0;
+	}
+
+.nocomments {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	}
+
+.commentmetadata {
+	margin: 0;
+	display: block;
+	}
+	
+h3.comments {
+	padding: 0;
+	margin: 40px auto 20px ;
+	}
+
+.commentlist li, #commentform input, #commentform textarea {
+    color: #000000;
+	}
+
+.commentlist li {
+        font-size: 1.0em;
+	}
+
+.commentlist li .avatar { 
+	float: right;
+	border: 1px solid #eee;
+	padding: 2px;
+	background: #fdfdfc;
+	}
+
+.commentlist cite, .commentlist cite a {
+	font-style: normal;
+	font-size: 1.0em;
+	}
+
+.commentlist p {
+	font-weight: normal;
+	line-height: 1.5em;
+	text-transform: none;
+	}
+
+#commentform p {
+	}
+
+.commentmetadata {
+	font-weight: normal;
+	font-size: .75em;
+	}
+
+.nocomments, .postmetadata, blockquote, strike {
+    color: #000000;
+    }
+
+
+/* Comment Form */
+
+.entry form { /* This is mainly for password protected posts, makes them look better. */
+	text-align:center;
+	}
+
+select {
+	width: 130px;
+	}
+
+#commentform input {
+	width: 170px;
+	padding: 2px;
+	margin: 5px 5px 1px 0;
+	border: 1px solid #c70add;
+	}
+
+#commentform textarea {
+	width: 100%;
+	padding: 2px;
+	border: 1px solid #c70add;
+	}
+
+#commentform #submit {
+	margin: 0;
+	float: right;
+	padding: 2px;
+	border: 1px solid #c70add;
+	text-transform: uppercase;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* SIDEBAR, DAWG */
+
+#sidecontent {
+	float:right;
+	width:180px;
+	margin-right: 1px 0 0;
+	}
+
+#sidebar {
+	float: right;
+	background-color: #fff;
+	padding: 10px 9px;
+	margin: 0px 0px 1px;
+	width: 160px;
+
+	line-height: 1.5em;
+	}
+	
+#sidebar .sideads {
+	}
+	
+#sidebar form {
+	margin: 0;
+	}
+	
+h3.widget-title {
+	font-size: 1.7em;
+	margin: 15px 7px;
+	}
+	
+.adtext {
+	font-size: 1em;
+	line-height: 1.5em;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 3px 0px 8px 0;
+	}
+
+#sidebar ul ul li, #sidebar ul ol li {
+	color: #000000;
+    text-align: left;
+    text-decoration: none;  
+    font-size: 1.1em;  
+	}
+
+#sidebar h2 {
+	font-size: 1.2em;
+    text-align: left;
+    color: #000000;
+    text-transform: uppercase;
+    margin: 1px 0 0 1px;
+	padding: 0;
+	}
+	
+#sidebar ul, #sidebar ul ol {
+	margin: 0;
+	padding: 0;
+	}
+
+#sidebar ul li {
+	list-style-type: none;
+	list-style-image: none;
+	margin-bottom: 15px;
+	}
+
+#sidebar ul p, #sidebar ul select {
+	margin: 5px 0 8px;
+	}
+
+#sidebar ul ul, #sidebar ul ol {
+	margin: 5px 0 0 10px;
+	}
+
+#sidebar ul ul ul, #sidebar ul ol {
+	margin: 0 0px 0 10px;
+	}
+
+ol li, #sidebar ul ol li {
+	list-style: decimal outside;
+	}
+
+#sidebar ul ul li, #sidebar ul ol li {
+	margin: 3px 8px 8px 0;
+	padding: 0;
+	}
+	
+/*SEARCH*/
+
+#searchform {
+	padding: 5px 0;
+	}
+
+#searchform #s {
+	width: 155px;
+	padding: 0px;
+	border: 1px solid #671371;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Begin Various Tags & Classes */
+
+acronym, abbr, span.caps {
+	cursor: help;
+	}
+
+acronym, abbr {
+	border-bottom: 1px dashed #999;
+	}
+	
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+blockquote {
+	margin: 15px 0px 10px 0px;
+	padding: 3px 20px 3px 17px;
+	border-left: 2px solid #c70add;
+	color: #671371;
+
+	}
+
+blockquote cite {
+	margin: 5px 0 0;
+	display: block;
+	}
+
+.center {
+	text-align: center;
+	}
+
+.hidden {
+	display: none;
+	}
+
+hr {
+	display: none;
+	}
+
+a img {
+	border: none;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*AUTHOR PAGE*/
+
+.authabout {
+	width: 600px;
+	padding-top: 0px;
+	}
+	
+.authimg {
+	float:left
+	width: 200px;
+	}
+	
+.authimg img {
+padding-top: 20px;
+	float:left
+	}
+	
+.authtxt {
+	float:right;
+	width:380px;
+	font-size: 2em;
+	}
+
+
+
+
+
+/*ABOUT PAGE*/
+
+.aboutheaders {
+	margin-top:60px;
+	}
+
+
+
+
+
+
+/* CAPTIONS */
+.aligncenter, div.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.wp-caption {
+	border: 1px solid #000;
+	text-align: center;
+	background-color: #fff;
+	padding-top: 4px;
+	margin: 10px 10px 10px 10px;
+	-moz-border-radius: 1px;
+	-khtml-border-radius: 1px;
+	-webkit-border-radius: 1px;
+	border-radius: 1px;
+}
+
+.wp-caption img {
+	border: 1px solid #000;
+	margin: 0;
+	padding: 0;
+	border: 0 none;
+}
+
+.wp-caption p.wp-caption-text {
+	color: #000;
+	font-size: 11px;
+	line-height: 17px;
+	padding: 3px 4px 5px;
+	margin: 0;
+}
+
+
+
+
+
+
+
+
+
+/*BOTTOM NAVVY*/
+
+#navigation {
+	float: left;
+	width: 660px;
+	padding:10px 0px 0px;
+	margin:0;
+	background-color: #000;
+	}
+	
+#navigation a {
+	color: #fff;
+	}
+	
+#navigation a:hover {
+	color: #4e4c34;
+	text-decoration: none;
+	}
+
+.nav-previous {
+	float:left;
+	}
+	
+.nav-next {
+	float:right;
+	}
+	
+	
+	
+	
+	
+	
+	/* =Mobile Safari ( iPad, iPhone and iPod Touch )
+-------------------------------------------------------------- */
+
+.menu {
+		-webkit-text-size-adjust: 80%;
+}
+
+.entry {
+	-webkit-text-size-adjust: 100%;
+	}
+
+.navigation, .shortentry p {
+	-webkit-text-size-adjust: 120%;
+	}
+
+#access, .entry-meta, .entry-utility, .widget-area {
+	-webkit-text-size-adjust: 100%;
+}
+
+#site-description {
+	-webkit-text-size-adjust: none;
+}
+
+#content p {
+-webkit-text-size-adjust: 100%;
+	}
+
+#wpstats{visibility:hidden}
+

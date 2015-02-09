@@ -1,0 +1,49 @@
+h1 {
+  font-family: 'Lato';
+  font-size: 3em;
+  line-height: 1.24444em;
+  text-align: center;	
+}
+
+h2 { 
+  font-family: Helvetica; 
+  font-size: 1em;
+  line-height: 2.46154em;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  text-align: center;
+  font-weight: lighter;
+}
+
+.zone-preface-wrapper {
+	border-bottom: 1px solid black;
+	margin-top: 0em;
+	padding-top: 1.06667em;
+	padding-bottom: 2.66667em;
+	margin-bottom: 1.77778em;
+	margin-right: 0em;
+	margin-left: 0em;
+}
+
+.intro {
+	font-family: 'Noto Serif', serif;
+	font-size: 0.88889em;
+	line-height: 2em;
+	width: 717px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+
+.text {
+  font-family: 'Noto Serif', serif;
+  text-align: left;
+  margin-left: 2em;
+  width: 531px;
+}
+
+strong {
+	font-family: 'Noto Serif', serif;
+}
+
