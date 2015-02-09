@@ -1,0 +1,30 @@
+h1 {
+	font-family: times, serif;
+	margin-top: 5em;
+	margin-left: 5em;
+	font-size: 2em;
+	font-weight: normal;
+}
+
+h2 {
+	font-family: times, serif;
+	margin-left: 5em;
+	font-size: 2em;
+	font-weight: normal;
+}
+
+a {
+	font-family: times, serif;
+	margin-left: 5em;
+	font-size: 2em;
+	font-weight: normal;
+	color: pink;
+	text-decoration: none
+}
+
+p {
+	font-family: times, serif;
+	margin-left: 5em;
+	font-size: 2em;
+	font-weight: normal;
+}
