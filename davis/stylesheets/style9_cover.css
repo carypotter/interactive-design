@@ -1,0 +1,41 @@
+body {
+	background-color: #BEC6C9;
+	width:2000px;
+}
+
+h1 {
+	font-family: Times;
+	margin-bottom: 50px;
+	font-weight: normal;
+	font-size: 175px;
+	text-align: center;
+	width: 150%;
+
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+h2 {
+	font-family: Times;
+	margin-bottom: 50px;
+	font-weight: normal;
+	font-size: 100px;
+	text-align: center;
+	width: 150%;
+
+}
+
+h3 {
+	font-family: Times;
+	margin-bottom: 500px;
+	font-weight: normal;
+	font-size: 50px;
+	text-align: center;
+	width: 150%;
+
+}
+
+

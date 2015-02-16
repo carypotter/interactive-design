@@ -1,0 +1,51 @@
+hr {
+top: 0;
+width: 100%;
+background-color: yellow;
+border-color: yellow;
+height: 600px;
+position: fixed;
+top: 0px;
+display: block;
+border-style:solid;
+margin: 0;
+padding: 0;
+
+}
+
+.container {
+	height: 60px;
+	top: 0;
+}
+
+h2 {
+	font-family: 'EB Garamond', serif;
+	font-size: 15px;
+	line-height: 42px;
+	margin-left: 2%;
+	margin-top: 5em;
+}
+
+h1 {
+	margin-top: 625px;
+	margin-bottom: 350px;
+}
+
+a {
+	font-family: 'EB Garamond', serif;
+	font-size: 40px;
+	line-height: 42px;
+	margin-left: 2%;
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	color:white;
+}
+
+.title {
+	font-style: italic;
+}
+
+
