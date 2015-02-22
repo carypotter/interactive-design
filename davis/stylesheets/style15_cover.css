@@ -4,7 +4,7 @@ h1 {
 	margin-right: 5px;
 	margin-bottom: 1em;
 	margin-left: 4em;
-	color: #006000;;
+	color: #006000;
 	display: inline-block;
 	font-size: 36px;
 	line-height: 40px;
@@ -12,4 +12,10 @@ h1 {
 
 .title {
 	font-style: italic;
+}
+
+a {
+	text-decoration: underline;
+	color: #006000;
+
 }
