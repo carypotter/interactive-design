@@ -22,8 +22,7 @@ h2 {
 	border-top-width: 4px;
 	border-top-style: solid;
 	border-top-color: rgb(0, 0, 0);
-	margin-left: 6em;
-	margin-right: 33em;
+	width: 200%;
 }
 
 .text {
@@ -31,4 +30,5 @@ h2 {
 	width: 650px;
 	line-height: 1.5em;
 	margin-left: 6em;
+	margin-bottom: 200px;
 }

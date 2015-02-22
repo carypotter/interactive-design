@@ -1,0 +1,22 @@
+h1 {
+	font-family: georgia,times,serif;
+	font-size: 700px;
+	line-height: 900px;
+	font-weight: 700;
+	font-style: italic;
+	margin-left: 100px;
+	margin-top: 90px;
+}
+
+.container{
+	width: 7200px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover{
+	color: red;
+}

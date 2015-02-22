@@ -1,0 +1,42 @@
+h1 {
+  font-family: 'Lato';
+  font-size: 3em;
+  line-height: 1.24444em;
+  text-align: center;
+  padding-top: 30px;	
+}
+
+h2 { 
+  font-family: Helvetica; 
+  font-size: 14px;
+  line-height: 2.46154em;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  text-align: center;
+  font-weight: lighter;
+  padding-bottom: 20px;
+}
+
+.container {
+	margin-top: 210px;
+	margin-bottom: 100px;
+}
+
+p { 
+  font-family: Helvetica; 
+  font-size: 13px;
+  line-height: 2.46154em;
+  letter-spacing: 1.5px;
+  text-align: center;
+  font-weight: lighter;
+  padding-bottom: 50px;
+}
+
+.title{
+	font-style: italic;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}

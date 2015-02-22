@@ -46,6 +46,7 @@ body.one .container {
   width: 650px;
   margin-right: auto;
   margin-left: auto;
+  margin-bottom: 200px;
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -57,7 +58,9 @@ body.two {
   text-rendering: optimizeLegibility;
   background: white;
   display: block;
-  margin: 15px;
+  margin-top: 10px;
+  margin-left: 15px;
+  margin-bottom: 200px;
 }
 
 body.two p {

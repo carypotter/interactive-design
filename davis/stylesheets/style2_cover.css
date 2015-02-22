@@ -1,0 +1,22 @@
+body {
+  font-family: 'Petit Formal Script', cursive;
+  text-rendering: optimizeLegibility;
+  display: block;
+   -moz-hyphens: auto;-o-hyphens: auto;-webkit-hyphens: auto;-ms-hyphens: auto;-hyphens: auto;
+  margin-top: 10px;
+  margin-left: 15px;
+  color: white;
+  background-color: red;
+  font-size: 80px;
+  line-height: 1.15em;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: black;
+}
+
+
