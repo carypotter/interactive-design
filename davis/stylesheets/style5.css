@@ -1,5 +1,8 @@
 body {
-	background-image: url(style5_background.jpg)
+	background-repeat: url("../images/01.jpg");
+	
+	width: 2000px;
+	height: 2000px;
 }
 
 hr {
@@ -14,6 +17,7 @@ display: block;
 border-style:solid;
 margin: 0;
 padding: 0;
+z-index: -1;
 }
 
 h1 {
