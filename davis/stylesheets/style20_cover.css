@@ -1,0 +1,44 @@
+body {
+	background-color: #b19cd9
+}
+
+h1 {
+	font-family: 'Righteous', cursive;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: white;
+	font-size: 125px;
+	text-align: center;
+	margin-top: 175px;
+	margin-bottom: 0;
+}
+
+h2 {
+	font-family: 'Righteous', cursive;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: white;
+	font-size: 50px;
+	text-align: center;
+	margin-top: 0;
+
+}
+
+p {
+	font-family: 'Righteous', cursive;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: white;
+	font-size: 50px;
+	text-align: center;
+	margin-top: 0;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+a:hover {
+	color: yellow;
+}

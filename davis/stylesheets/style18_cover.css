@@ -1,0 +1,40 @@
+.column1 {
+font-family: "Helvetica", Arial, sans-serif;
+font-weight: bold;
+width: 30%;
+float: left;
+word-spacing: -1px;	
+font-size: 40px;
+margin-top: 20px;
+margin-left: 50px;
+margin-bottom: 10px;
+text-align: left;	
+text-transform: lowercase;	
+}
+
+.column2 {
+font-family: "Helvetica", Arial, sans-serif;
+font-weight: bold;
+width: 40%;
+float: left;
+word-spacing: -1px;	
+font-size: 40px;
+margin-top: 20px;
+margin-bottom: 10px;
+text-align: left;		
+}
+
+body {
+	height: 600px;
+}
+
+div {
+	display: inline;
+}
+
+a {
+	text-decoration: none;
+	color: rgb(0, 113, 255);
+}
+
+

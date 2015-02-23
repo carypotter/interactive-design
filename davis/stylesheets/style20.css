@@ -37,4 +37,9 @@ hr {
 	margin-right: auto;
 	margin-bottom: 100px;
 	line-height: 20px;
+	color: #b19cd9;
+}
+
+body {
+	background-color: yellow;
 }
