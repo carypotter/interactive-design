@@ -1,8 +1,13 @@
-h1 {
+.title {
 	font-family: Georgia;
-	font-size: 58px;
+	font-size: 60px;
 	line-height: 56px;
 	margin-left: 1.65em;
+	font-style: bold;
+}
+
+.container {
+	margin-top: 60px;
 }
 
 h2 {
@@ -17,12 +22,14 @@ h2 {
 	margin-left: 7.54em;
 }
 
-.line {
+hr {
 	border-top: 4px solid #000;
 	border-top-width: 4px;
 	border-top-style: solid;
 	border-top-color: rgb(0, 0, 0);
-	width: 200%;
+	display: block;
+	margin-top: 37px;
+	padding: 0;
 }
 
 .text {

@@ -1,18 +1,23 @@
-body {
+
+.container {
+	width: 800px;
+	display: inline;
+	text-align: center;
+
+}
+
+p {
 	font-family: Helvetica, Arial;
 	background-color: #fff;
 	text-align: center;
 	font-size: 26px;
 	line-height: 34px;
-	margin-right: 2px;
-	margin-left: 4px;
-	margin-top: 2px;
 }
+
 
 .title {
 	font-family: Helvetica, Arial;
 	background-color: #fff;
-	text-align: left;
 	text-transform: uppercase;
 	font-style: bold;
 	letter-spacing: 1px;

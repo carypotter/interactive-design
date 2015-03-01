@@ -12,12 +12,11 @@ hr {
 	border-top-width: 4px;
 	border-top-style: solid;
 	border-top-color: rgb(0, 0, 0);
-	width: 125%;
+	display: block;
+	margin: 0;
+	padding: 0;
 }
 
-.container {
-	width: 1250px;
-}
 
 .title {
 	font-style: italic;
@@ -32,3 +31,4 @@ a {
 a:hover {
 	color:red;
 }
+
