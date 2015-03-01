@@ -1,0 +1,36 @@
+body {
+
+background: url(../images/01_cover.jpg) no-repeat center center fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+
+}
+
+.title {
+margin-top: -275px;
+margin-left: 15%;
+position: fixed;
+text-decoration: none;
+font-style: normal;
+font-size: 50px;
+letter-spacing: .5px;
+line-height: 60px;
+color: white;
+position: fixed;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+hr {
+	margin-top: 525px;
+	border-color: white;
+	background-color: white;
+	height: 5px;
+	margin-left: 15%;
+	width: 450px;
+}
