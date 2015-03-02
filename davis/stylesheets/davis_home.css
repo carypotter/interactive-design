@@ -2,9 +2,9 @@ p {
 	font-family: times;
 	font-size: 15px;
 	margin-left: 50px;
-	margin-top: -80px;
+	margin-top: 30px;
 	margin-bottom: 0px;
-	position: fixed;
+	display: fixed;
 }
 
 .link {
@@ -25,7 +25,7 @@ a {
 
 .list {
 	width: 1275px;
-	margin-top: 120px;
+	margin-top: 80px;
 	margin-left: 50px;
 }
 
@@ -33,6 +33,12 @@ body {
 	height: 500px;
 }
 
-.catagory {
-	color: blue;
+a.one {
+	color:blue;
+	text-decoration: underline;
+}
+
+a.two {
+	color:blue;
+	text-decoration: underline;
 }
