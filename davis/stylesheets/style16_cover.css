@@ -1,3 +1,27 @@
+.navigation1 {
+  position: fixed;
+  top: 25px;
+  left: 1158px;
+  display: inline;
+  z-index: 10;
+}
+
+.navigation2 {
+  position: fixed;
+  top: 25px;
+  left: 1200px;
+  display: inline;
+  z-index: 10;
+}
+
+.navigationthree {
+  position: fixed;
+  top: 25px;
+  left: 1242px;
+  display: inline;
+  z-index: 10;
+}
+
 hr {
 top: 0;
 width: 100%;

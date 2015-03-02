@@ -1,3 +1,28 @@
+.navigation1 {
+  position: fixed;
+  top: 25px;
+  left: 1158px;
+  display: inline;
+  z-index: 10;
+  text-decoration: none;
+}
+
+.navigation2 {
+  position: fixed;
+  top: 25px;
+  left: 1200px;
+  display: inline;
+  z-index: 10;
+}
+
+.navigationthree {
+  position: fixed;
+  top: 25px;
+  left: 1242px;
+  display: inline;
+  z-index: 10;
+}
+
 body {
   background-color: blue
 }
@@ -36,6 +61,7 @@ body.three a[data-url]:after {
 
 body.three a[data-url]:after.hover {
   color: white;
+  text-decoration: none;
 }
 
 body.three a {
@@ -48,6 +74,11 @@ border-bottom: 0.1em solid;
           transition: color 200ms ease-in-out; }
 a:hover { color: white; }
 }
+
+a.one {
+  text-decoration: none;
+  border: 0 none;
+  }
 
 
 
