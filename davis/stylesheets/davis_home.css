@@ -18,6 +18,31 @@ p {
     width: 250px;
 }
 
+.link1 {
+	font-family: times;
+	font-size: 150px;
+	text-decoration: none;
+	display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    font-weight: bold;
+    width: 250px;
+    color: blue;
+}
+
+.link3 {
+	font-family: times;
+	font-size: 150px;
+	text-decoration: none;
+	display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    font-weight: bold;
+    width: 250px;
+    color: black;
+    text-decoration: line-through;
+}
+
 a {
 	text-decoration: none;
 	color: black;
@@ -34,11 +59,15 @@ body {
 }
 
 a.one {
-	color:blue;
+	color:black;
 	text-decoration: underline;
 }
 
 a.two {
 	color:blue;
 	text-decoration: underline;
+}
+
+a.three {
+	color:blue;
 }
