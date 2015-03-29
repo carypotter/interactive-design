@@ -1,0 +1,65 @@
+body {
+	background: url(../images/moon7.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	-o-font-smoothing: antialiased;
+}
+
+.title {
+	font-family: BellGothicBT-Roman;
+	text-transform: uppercase;
+	font-size: 35px;
+	letter-spacing: 2px;
+	color: white;
+	text-decoration: none;
+	margin-left: 52%;
+	margin-top: 285px;
+}
+
+.intro {
+	font-family: BellGothicBT-Roman;
+	font-size: 14px;
+	color: white;
+	margin-left: 52%;
+	margin-top: 40px;
+}
+
+.nav_plus {
+	margin-top: -270px;
+	margin-left: 12px;
+	position: fixed;
+	display: inline;
+
+}
+
+.nav_minus {
+	margin-top: -270px;
+	margin-left: 51px;
+	position: fixed;
+	display: inline;
+}
+
+.nav_artimus {
+	margin-top: -269px;
+	margin-left: 268px;
+	position: fixed;
+	display: inline;
+}
+
+.nav_information {
+	margin-top: -269px;
+	margin-left: 95px;
+	position: fixed;
+	display: inline;
+}
+
+.nav_orders {
+	margin-top: -269px;
+	margin-left: 390px;
+	position: fixed;
+	display: inline;
+}
