@@ -30,7 +30,7 @@ body {
 
 .nav_plus {
 	margin-top: -270px;
-	margin-left: 12px;
+	margin-left: 51px;
 	position: fixed;
 	display: inline;
 
@@ -38,7 +38,7 @@ body {
 
 .nav_minus {
 	margin-top: -270px;
-	margin-left: 51px;
+	margin-left: 12px;
 	position: fixed;
 	display: inline;
 }
