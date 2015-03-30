@@ -17,7 +17,10 @@ body {
 	color: white;
 	text-decoration: none;
 	margin-left: 52%;
-	margin-top: 285px;
+	margin-top: 185px;
+	display: inline-block;
+	background-color: black;
+	width: 205px;
 }
 
 .intro {
@@ -26,10 +29,11 @@ body {
 	color: white;
 	margin-left: 52%;
 	margin-top: 40px;
+	width: 30%;
 }
 
 .nav_plus {
-	margin-top: -270px;
+	margin-top: 10px;
 	margin-left: 51px;
 	position: fixed;
 	display: inline;
@@ -37,28 +41,28 @@ body {
 }
 
 .nav_minus {
-	margin-top: -270px;
+	margin-top: 10px;
 	margin-left: 12px;
 	position: fixed;
 	display: inline;
 }
 
 .nav_artimus {
-	margin-top: -269px;
+	margin-top: 10px;
 	margin-left: 268px;
 	position: fixed;
 	display: inline;
 }
 
 .nav_information {
-	margin-top: -269px;
+	margin-top: 10px;
 	margin-left: 95px;
 	position: fixed;
 	display: inline;
 }
 
 .nav_orders {
-	margin-top: -269px;
+	margin-top: 10px;
 	margin-left: 390px;
 	position: fixed;
 	display: inline;
