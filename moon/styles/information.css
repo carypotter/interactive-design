@@ -48,23 +48,23 @@ body {
 	display: inline;
 }
 
-.nav_artimus {
-	margin-top: 10px;
-	margin-left: 268px;
-	position: fixed;
-	display: inline;
-}
-
 .nav_information {
 	margin-top: 10px;
-	margin-left: 95px;
+	margin-left: 180px;
 	position: fixed;
 	display: inline;
 }
 
-.nav_orders {
+.nav_contribute {
 	margin-top: 10px;
-	margin-left: 390px;
+	margin-left: 358px;
+	position: fixed;
+	display: inline;
+}
+
+.nav_home {
+	margin-top: 10px;
+	margin-left: 95px;
 	position: fixed;
 	display: inline;
 }

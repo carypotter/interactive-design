@@ -20,16 +20,37 @@ body {
 	margin-top: 185px;
 	display: inline-block;
 	background-color: black;
-	width: 205px;
+	width: 193px;
 }
 
-.intro {
+.intro1 {
 	font-family: BellGothicBT-Roman;
 	font-size: 14px;
 	color: white;
 	margin-left: 52%;
 	margin-top: 40px;
-	width: 30%;
+	width: 250px;
+	background-color: black;
+}
+
+.intro2 {
+	font-family: BellGothicBT-Roman;
+	font-size: 14px;
+	color: white;
+	margin-left: 52%;
+	margin-top: 20px;
+	width: 272px;
+	background-color: black;
+}
+
+.intro3 {
+	font-family: BellGothicBT-Roman;
+	font-size: 14px;
+	color: white;
+	margin-left: 52%;
+	margin-top: 20px;
+	width: 380px;
+	background-color: black;
 }
 
 .nav_plus {
@@ -47,23 +68,23 @@ body {
 	display: inline;
 }
 
-.nav_artimus {
-	margin-top: 10px;
-	margin-left: 268px;
-	position: fixed;
-	display: inline;
-}
-
-.nav_information {
+.nav_home {
 	margin-top: 10px;
 	margin-left: 95px;
 	position: fixed;
 	display: inline;
 }
 
-.nav_orders {
+.nav_information {
 	margin-top: 10px;
-	margin-left: 390px;
+	margin-left: 180px;
+	position: fixed;
+	display: inline;
+}
+
+.nav_contribute {
+	margin-top: 10px;
+	margin-left: 358px;
 	position: fixed;
 	display: inline;
 }
