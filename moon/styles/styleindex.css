@@ -348,5 +348,97 @@ body {
  
   }
 
+  @media screen and (max-width: 150px) {
+
+.nav_plus {
+	margin-top: 10px;
+	margin-left: 51px;
+	position: fixed;
+	display: inline;
+
+}
+
+.nav_minus {
+	margin-top: 10px;
+	margin-left: 12px;
+	position: fixed;
+	display: inline;
+}
+
+.nav_home {
+	margin-top: 50px;
+	margin-left: 12px;
+	position: fixed;
+	display: inline;
+}
+
+.nav_information {
+	margin-top: 87px;
+	margin-left: 12px;
+	position: fixed;
+	display: inline;
+}
+
+.nav_contribute {
+	margin-top: 123px;
+	margin-left: 12px;
+	position: fixed;
+	display: inline;
+}
+
+.title {
+	font-family: BellGothicBT-Roman;
+	font-size: 15px;
+	letter-spacing: 2px;
+	color: white;
+	text-decoration: none;
+	margin-left: 12px;
+	margin-top: 175px;
+	background-color: black;
+	width: 205px;
+	display: inline-block;
+}
+
+.intro1 {
+	font-family: BellGothicBT-Roman;
+	font-size: 14px;
+	color: white;
+	margin-left: 12px;
+	margin-top: 10px;
+	width: 85%;
+	background-color: black;
+}
+
+.intro2 {
+	font-family: BellGothicBT-Roman;
+	font-size: 14px;
+	color: white;
+	margin-left: 12px;
+	margin-top: 20px;
+	width: 85%;
+	background-color: black;
+}
+
+.intro3 {
+	font-family: BellGothicBT-Roman;
+	font-size: 14px;
+	color: white;
+	margin-left: 12px;
+	margin-top: 20px;
+	width: 85%;
+	background-color: black;
+}
+  
+ 
+  }
+
+body {
+	height: 100%;
+	width: 100%;
+	overflow-x: hidden;
+}
+  
+ 
+  }
 
 
