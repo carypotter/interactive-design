@@ -82,6 +82,13 @@ body {
 	display: inline;
 }
 
+.nav_stream {
+	margin-top: 117px;
+	margin-left: 180px;
+	position: fixed;
+	display: inline;
+}
+
 p {
 	background-color: black;
 }
@@ -94,7 +101,7 @@ p {
 
 }
 
- @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   
   .nav_information {
 	margin-top: 47px;
@@ -144,6 +151,13 @@ p {
 	margin-left: 95px;
 	margin-top: 20px;
 	width: 70%;
+}
+
+.nav_stream {
+	margin-top: 155px;
+	margin-left: 95px;
+	position: fixed;
+	display: inline;
 }
   }
 
@@ -249,6 +263,13 @@ p {
 	margin-left: 12px;
 	margin-top: 20px;
 	width: 75%;
+}
+
+.nav_stream {
+	margin-top: 192px;
+	margin-left: 12px;
+	position: fixed;
+	display: inline;
 }
 
   }
