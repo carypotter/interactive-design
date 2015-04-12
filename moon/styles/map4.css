@@ -125,7 +125,7 @@ p {
 }
 
 .nav_contribute {
-	margin-top: 156px;
+	margin-top: 190px;
 	margin-left: 95px;
 	position: fixed;
 	display: inline;
@@ -139,7 +139,7 @@ p {
 	color: white;
 	text-decoration: none;
 	margin-left: 95px;
-	margin-top: 210px;
+	margin-top: 255px;
 	display: inline-block;
 	width: 100px;
 }
@@ -149,7 +149,7 @@ p {
 	font-size: 14px;
 	color: white;
 	margin-left: 95px;
-	margin-top: 20px;
+	margin-top: 25px;
 	width: 70%;
 }
 
@@ -166,24 +166,28 @@ p {
   	.nav_information {
 	margin-top: 47px;
 	margin-left: 95px;
+	position: fixed;
 	display: inline;
 }
 
   .nav_map {
 	margin-top: 84px;
 	margin-left: 95px;
+	position: fixed;
 	display: inline;
 }
 
 .nav_team {
 	margin-top: 120px;
 	margin-left: 95px;
+	position: fixed;
 	display: inline;
 }
 
 .nav_contribute {
-	margin-top: 156px;
+	margin-top: 190px;
 	margin-left: 95px;
+	position: fixed;
 	display: inline;
 }
 
@@ -195,7 +199,7 @@ p {
 	color: white;
 	text-decoration: none;
 	margin-left: 95px;
-	margin-top: 210px;
+	margin-top: 255px;
 	display: inline-block;
 	width: 100px;
 }
@@ -205,11 +209,18 @@ p {
 	font-size: 14px;
 	color: white;
 	margin-left: 95px;
-	margin-top: 20px;
+	margin-top: 25px;
 	width: 70%;
 }
-   
+
+.nav_stream {
+	margin-top: 155px;
+	margin-left: 95px;
+	position: fixed;
+	display: inline;
+}
   }
+
 
   @media screen and (max-width: 480px) {
 
@@ -238,7 +249,7 @@ p {
 }
 
 .nav_contribute {
-	margin-top: 192px;
+	margin-top: 226px;
 	margin-left: 12px;
 	display: inline;
 }
@@ -251,7 +262,7 @@ p {
 	color: white;
 	text-decoration: none;
 	margin-left: 12px;
-	margin-top: 250px;
+	margin-top: 291px;
 	display: inline-block;
 	width: 100px;
 }
@@ -329,39 +340,3 @@ p {
 }
  
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
