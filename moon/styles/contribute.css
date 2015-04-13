@@ -1,5 +1,12 @@
 body {
-	background-color: black;
+	background: url(../images/contribute_background.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	-o-font-smoothing: antialiased;
 }
 
 body {
@@ -16,7 +23,7 @@ body {
 .title {
 	font-family: BellGothicBT-Roman;
 	text-transform: uppercase;
-	font-size: 20px;
+	font-size: 35px;
 	letter-spacing: 2px;
 	color: white;
 	text-decoration: none;
@@ -32,7 +39,7 @@ body {
 	font-size: 14px;
 	color: white;
 	margin-left: 45%;
-	margin-top: 20px;
+	margin-top: 38px;
 	width: 30%;
 }
 
@@ -99,24 +106,77 @@ p {
 }
 
 .boxdiagram {
-	position: fixed;
-	margin-top: 100px
+	max-width: 400px;
+	margin-top: 167px;
+	float: left;
 }
 
-.options {
+.gold_name {
 	font-family: BellGothicBT-Roman;
 	font-size: 14px;
 	color: white;
 	margin-top: 20px;
+	background-color: black;
+	width: 37px;
+}
+
+.gold {
+	font-family: BellGothicBT-Roman;
+	font-size: 14px;
+	color: white;
+	margin-top: 20px;
+	background-color: black;
+	width: 100%;
+}
+
+.silver_name {
+	font-family: BellGothicBT-Roman;
+	font-size: 14px;
+	color: white;
+	margin-top: 20px;
+	background-color: black;
+	width: 53px;
+}
+
+.silver{
+	font-family: BellGothicBT-Roman;
+	font-size: 14px;
+	color: white;
+	margin-top: 20px;
+	background-color: black;
+	width: 100%;
 
 
 }
 
+.bronze_name {
+	font-family: BellGothicBT-Roman;
+	font-size: 14px;
+	color: white;
+	margin-top: 20px;
+	background-color: black;
+	width: 58px;
+
+
+}
+
+.bronze {
+	font-family: BellGothicBT-Roman;
+	font-size: 14px;
+	color: white;
+	margin-top: 20px;
+	background-color: black;
+	width: 100%;
+}
+
+img {
+	max-width: 100%
+}
   
 
   @media screen and (max-width: 1024px) {
   	.boxdiagram {
-  		max-width: 100px;
+  		max-width: 50%;
   	}
   
   }
@@ -145,7 +205,7 @@ p {
 }
 
 .nav_contribute {
-	margin-top: 156px;
+	margin-top: 84px;
 	margin-left: 95px;
 	position: fixed;
 	display: inline;
@@ -159,7 +219,7 @@ p {
 	color: white;
 	text-decoration: none;
 	margin-left: 95px;
-	margin-top: 210px;
+	margin-top: 150px;
 	display: inline-block;
 	width: 100px;
 }
@@ -195,7 +255,7 @@ p {
 }
 
 .nav_contribute {
-	margin-top: 156px;
+	margin-top: 84px;
 	margin-left: 95px;
 	display: inline;
 }
@@ -208,7 +268,7 @@ p {
 	color: white;
 	text-decoration: none;
 	margin-left: 95px;
-	margin-top: 210px;
+	margin-top: 150px;
 	display: inline-block;
 	width: 100px;
 }
@@ -251,7 +311,7 @@ p {
 }
 
 .nav_contribute {
-	margin-top: 192px;
+	margin-top: 124px;
 	margin-left: 12px;
 	display: inline;
 }
@@ -264,7 +324,7 @@ p {
 	color: white;
 	text-decoration: none;
 	margin-left: 12px;
-	margin-top: 250px;
+	margin-top: 190px;
 	display: inline-block;
 	width: 100px;
 }
@@ -307,7 +367,7 @@ p {
 }
 
 .nav_contribute {
-	margin-top: 192px;
+	margin-top: 124px;
 	margin-left: 12px;
 	display: inline;
 }
@@ -320,7 +380,7 @@ p {
 	color: white;
 	text-decoration: none;
 	margin-left: 12px;
-	margin-top: 250px;
+	margin-top: 190px;
 	display: inline-block;
 	width: 100px;
 }

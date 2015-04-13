@@ -1,0 +1,691 @@
+
+body {
+	background: url(../images/stream_background.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	-o-font-smoothing: antialiased;
+}
+
+body {
+	background-color: black;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	-o-font-smoothing: antialiased;
+}
+
+.image {
+	margin-left: 45%;
+	margin-top: -32px;
+}
+
+.title {
+	font-family: BellGothicBT-Roman;
+	text-transform: uppercase;
+	font-size: 35px;
+	letter-spacing: 2px;
+	color: white;
+	text-decoration: none;
+	margin-left: 45%;
+	margin-top: 167px;
+	margin-bottom: 40px;
+	background-color: black;
+	width: 205px;
+	display: inline-block;
+}
+
+.nav_stream {
+	margin-top: 155px;
+	margin-left: 95px;
+	position: fixed;
+	display: inline;
+}
+
+.name {
+	font-family: BellGothicBT-Roman;
+	font-size: 15px;
+	color: white;
+	margin-left: 45%;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	z-index: -50;
+	background-color: black;
+	width: 75px;
+}
+
+.date {
+	font-family: BellGothicBT-Roman;
+	font-size: 15px; 
+	margin-left: 37%;
+	margin-top: 5px;
+	width: 30%;
+	z-index: -50;
+	background-color: black;
+	width: 65px;
+	color: white;
+}
+
+.time {
+	font-family: BellGothicBT-Roman;
+	font-size: 15px;
+	color: white;
+	margin-left: 37%;
+	width: 30%;
+	z-index: -50;
+	background-color: black;
+	width: 65px;
+}
+
+.post {
+	font-family: BellGothicBT-Roman;
+	font-size: 14px;
+	color: white;
+	margin-left: 45%;
+	z-index: -10;
+	margin-top: 5px;
+	width: 30%;
+	display: block;
+	background-color: black;
+	
+
+}
+
+hr {
+	color: black;
+	background-color: black;
+	width: 200%;
+	height: 280px;
+	margin-left: -200px;
+	margin-top: -50px;
+	position: fixed;
+	border: none;
+
+}
+
+
+
+.nav_plus {
+	margin-top: 10px;
+	margin-left: 51px;
+	position: fixed;
+	display: inline;
+	z-index: 5;
+
+}
+
+.nav_minus {
+	margin-top: 10px;
+	margin-left: 12px;
+	position: fixed;
+	display: inline;
+	z-index: 5;
+}
+
+.nav_information {
+	margin-top: 10px;
+	margin-left: 180px;
+	position: fixed;
+	display: inline;
+	z-index: 5;
+}
+
+.nav_contribute {
+	margin-top: 10px;
+	margin-left: 358px;
+	position: fixed;
+	display: inline;
+	z-index: 5;
+}
+
+.nav_home {
+	margin-top: 10px;
+	margin-left: 95px;
+	position: fixed;
+	display: inline;
+	z-index: 5;
+}
+
+.nav_map {
+	margin-top: 47px;
+	margin-left: 180px;
+	position: fixed;
+	display: inline;
+	z-index: 5;
+}
+
+.nav_team {
+	margin-top: 82px;
+	margin-left: 180px;
+	position: fixed;
+	display: inline;
+	z-index: 5;
+}
+
+.nav_stream {
+	margin-top: 117px;
+	margin-left: 180px;
+	position: fixed;
+	display: inline;
+	z-index: 5;
+}
+
+p {
+	background-color: black;
+}
+
+hr {
+	color: black;
+	background-color: black;
+	width: 200%;
+	height: 210px;
+	margin-left: -200px;
+	margin-top: -50px;
+	position: fixed;
+	border: none;
+
+}
+
+.container {
+	margin-bottom: 200px;
+}
+
+  @media screen and (max-width: 1824px) {
+   
+  }
+
+  @media screen and (max-width: 1024px) {
+  
+  }
+
+  @media screen and (max-width: 768px) {
+  
+.nav_home {
+	margin-top: 10px;
+	margin-left: 95px;
+	display: inline;
+}
+
+
+.nav_information {
+	margin-top: 47px;
+	margin-left: 95px;
+	position: fixed;
+	display: inline;
+}
+
+  .nav_map {
+	margin-top: 84px;
+	margin-left: 95px;
+	position: fixed;
+	display: inline;
+}
+
+.nav_team {
+	margin-top: 120px;
+	margin-left: 95px;
+	position: fixed;
+	display: inline;
+}
+
+.nav_contribute {
+	margin-top: 190px;
+	margin-left: 95px;
+	position: fixed;
+	display: inline;
+}
+
+.image{
+	margin-left: 95px;
+}
+
+.title {
+	font-family: BellGothicBT-Roman;
+	text-transform: uppercase;
+	font-size: 15px;
+	letter-spacing: 2px;
+	color: white;
+	text-decoration: none;
+	margin-left: 95px;
+	margin-top: 255px;
+	display: inline-block;
+	width: 75px;
+}
+
+.nav_stream {
+	margin-top: 155px;
+	margin-left: 95px;
+	position: fixed;
+	display: inline;
+}
+
+.name {
+	font-family: BellGothicBT-Roman;
+	font-size: 15px;
+	color: white;
+	margin-left: 95px;
+	margin-top: 5px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	z-index: -50;
+	width: 75px;
+}
+
+.date {
+	font-family: BellGothicBT-Roman;
+	font-size: 15px;
+	color: white; 
+	margin-left: 12px;
+	margin-top: 5px;
+	width: 30%;
+	z-index: -50;
+	background-color: black;
+	width: 65px;
+}
+
+.time {
+	font-family: BellGothicBT-Roman;
+	font-size: 15px;
+	color: white;
+	margin-left: 12px;
+	width: 30%;
+	z-index: -50;
+	background-color: black;
+	width: 65px;
+}
+
+.post {
+	font-family: BellGothicBT-Roman;
+	font-size: 14px;
+	color: white;
+	margin-left: 95px;
+	z-index: -10;
+	margin-top: 10px;
+	width: 75%;
+	display: block;
+	
+
+}
+
+hr {
+	color: black;
+	background-color: black;
+	width: 200%;
+	height: 280px;
+	margin-left: -200px;
+	margin-top: -50px;
+	position: fixed;
+	border: none;
+
+}
+  }
+
+  @media screen and (max-width: 600px) {
+
+img {
+	max-width: 100%
+}
+
+.nav_home {
+	margin-top: 50px;
+	margin-left: 12px;
+	display: inline;
+}
+
+.nav_information {
+	margin-top: 87px;
+	margin-left: 12px;
+	display: inline;
+}
+
+.nav_map {
+	margin-top: 123px;
+	margin-left: 12px;
+	display: inline;
+}
+
+.nav_team {
+	margin-top: 158px;
+	margin-left: 12px;
+	display: inline;
+}
+
+.nav_stream {
+	margin-top: 191px;
+	margin-left: 12px;
+	display: inline;
+}
+
+.nav_contribute {
+	margin-top: 226px;
+	margin-left: 12px;
+	display: inline;
+}
+
+.title {
+	font-family: BellGothicBT-Roman;
+	text-transform: uppercase;
+	font-size: 15px;
+	letter-spacing: 2px;
+	color: white;
+	text-decoration: none;
+	margin-left: 12px;
+	margin-top: 275px;
+	display: inline-block;
+	width: 75px;
+}
+
+.image{
+	max-width: 75%;
+	height: auto;
+	margin-left: 12px;
+	margin-top: 20px;
+}
+
+
+.post {
+	font-family: BellGothicBT-Roman;
+	font-size: 14px;
+	color: white;
+	margin-left: 12px;
+	z-index: -10;
+	margin-top: 10px;
+	width: 75%;
+	display: block;
+	
+
+}
+
+
+.date {
+	font-family: BellGothicBT-Roman;
+	font-size: 15px;
+	color: white; 
+	margin-left: 12px;
+	margin-top: 5px;
+	width: 30%;
+	z-index: -50;
+	background-color: black;
+	width: 65px;
+}
+
+.time {
+	font-family: BellGothicBT-Roman;
+	font-size: 15px;
+	color: white;
+	margin-left: 12px;
+	width: 30%;
+	z-index: -50;
+	background-color: black;
+	width: 65px;
+}
+
+.name {
+	font-family: BellGothicBT-Roman;
+	font-size: 15px;
+	color: white;
+	margin-left: 12px;
+	margin-top: 5px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	z-index: -50;
+	background-color: black;
+	width: 75px;
+}
+
+hr {
+	color: black;
+	background-color: black;
+	width: 200%;
+	height: 310px;
+	margin-left: -200px;
+	margin-top: -50px;
+	position: fixed;
+	border: none;
+
+}
+
+  }
+
+  @media screen and (max-width: 480px) {
+.nav_home {
+	margin-top: 50px;
+	margin-left: 12px;
+	display: inline;
+}
+
+.nav_information {
+	margin-top: 87px;
+	margin-left: 12px;
+	display: inline;
+}
+
+.nav_map {
+	margin-top: 123px;
+	margin-left: 12px;
+	display: inline;
+}
+
+.nav_team {
+	margin-top: 158px;
+	margin-left: 12px;
+	display: inline;
+}
+
+.nav_stream {
+	margin-top: 191px;
+	margin-left: 12px;
+	display: inline;
+}
+
+.nav_contribute {
+	margin-top: 226px;
+	margin-left: 12px;
+	display: inline;
+}
+
+.title {
+	font-family: BellGothicBT-Roman;
+	text-transform: uppercase;
+	font-size: 15px;
+	letter-spacing: 2px;
+	color: white;
+	text-decoration: none;
+	margin-left: 12px;
+	margin-top: 275px;
+	display: inline-block;
+	width: 75px;
+}
+
+
+.post {
+	font-family: BellGothicBT-Roman;
+	font-size: 14px;
+	color: white;
+	margin-left: 12px;
+	z-index: -10;
+	margin-top: 10px;
+	width: 75%;
+	display: block;
+	
+
+}
+
+
+.date {
+	font-family: BellGothicBT-Roman;
+	font-size: 15px;
+	color: white; 
+	margin-left: 12px;
+	margin-top: 5px;
+	width: 30%;
+	z-index: -50;
+	background-color: black;
+	width: 65px;
+}
+
+.time {
+	font-family: BellGothicBT-Roman;
+	font-size: 15px;
+	color: white;
+	margin-left: 12px;
+	width: 30%;
+	z-index: -50;
+	background-color: black;
+	width: 65px;
+}
+
+.name {
+	font-family: BellGothicBT-Roman;
+	font-size: 15px;
+	color: white;
+	margin-left: 12px;
+	margin-top: 5px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	z-index: -50;
+}
+
+hr {
+	color: black;
+	background-color: black;
+	width: 200%;
+	height: 310px;
+	margin-left: -200px;
+	margin-top: -50px;
+	position: fixed;
+	border: none;
+
+}
+
+  }
+
+  @media screen and (max-width: 320px) {
+
+.nav_home {
+	margin-top: 50px;
+	margin-left: 12px;
+	display: inline;
+}
+
+.nav_information {
+	margin-top: 87px;
+	margin-left: 12px;
+	display: inline;
+}
+
+.nav_map {
+	margin-top: 123px;
+	margin-left: 12px;
+	display: inline;
+}
+
+.nav_team {
+	margin-top: 158px;
+	margin-left: 12px;
+	display: inline;
+}
+
+.nav_stream {
+	margin-top: 191px;
+	margin-left: 12px;
+	display: inline;
+}
+
+.nav_contribute {
+	margin-top: 226px;
+	margin-left: 12px;
+	display: inline;
+}
+
+
+.title {
+	font-family: BellGothicBT-Roman;
+	text-transform: uppercase;
+	font-size: 15px;
+	letter-spacing: 2px;
+	color: white;
+	text-decoration: none;
+	margin-left: 12px;
+	margin-top: 275px;
+	display: inline-block;
+	width: 75px;
+}
+
+
+.post {
+	font-family: BellGothicBT-Roman;
+	font-size: 14px;
+	color: white;
+	margin-left: 12px;
+	z-index: -10;
+	margin-top: 10px;
+	width: 75%;
+	display: block;
+	
+
+}
+
+
+.date {
+	font-family: BellGothicBT-Roman;
+	font-size: 15px;
+	color: white; 
+	margin-left: 12px;
+	margin-top: 5px;
+	width: 30%;
+	z-index: -50;
+	background-color: black;
+	width: 65px;
+}
+
+.time {
+	font-family: BellGothicBT-Roman;
+	font-size: 15px;
+	color: white;
+	margin-left: 12px;
+	width: 30%;
+	z-index: -50;
+	background-color: black;
+	width: 65px;
+}
+
+.name {
+	font-family: BellGothicBT-Roman;
+	font-size: 15px;
+	color: white;
+	margin-left: 12px;
+	margin-top: 5px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	z-index: -50;
+	width: 75px;
+}
+
+hr {
+	color: black;
+	background-color: black;
+	width: 200%;
+	height: 310px;
+	margin-left: -200px;
+	margin-top: -50px;
+	position: fixed;
+	border: none;
+
+}
+
+ 
+  }
+
+
+
+
+
+
+
