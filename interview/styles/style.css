@@ -1,0 +1,50 @@
+h1 {
+	font-family: BellGothicBT-Roman;
+	text-decoration: none;
+	font-size: 30px;
+	margin-left: 50px;
+}
+
+p {
+	font-family: BellGothicBT-Roman;
+	text-decoration: none;
+	font-size: 15px;
+	margin-left: 50px;
+}
+
+.image {
+	margin-left: 50px;
+	margin-top: 50px;
+}
+
+a {
+	font-family: BellGothicBT-Roman;
+	text-decoration: underline;
+	font-size: 15px;
+	margin-left: 50px;
+	color: black;
+	display: block;
+}
+
+.question {
+	font-family: BellGothicBT-Roman;
+	text-decoration: none;
+	font-size: 15px;
+	margin-left: 50px;
+	color: blue;
+	width: 720px;
+	margin-top: 20px;
+}
+
+.answer {
+	font-family: BellGothicBT-Roman;
+	text-decoration: none;
+	font-size: 15px;
+	margin-left: 50px;
+	width: 720px;
+	margin-top: 20px;
+}
+
+.interview {
+	margin-bottom: 100px;
+}
