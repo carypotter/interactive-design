@@ -1,0 +1,299 @@
+body {
+  background: url(../images/background.gif) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+
+.container {
+  margin-left: 50px;
+  margin-top: 15px;
+}
+
+.title {
+  color: #21429C;
+  
+}
+
+.image1 {
+float: left;
+padding-left: 35px;
+padding-right: 35px;
+width: 5%;
+margin-left: 50px;
+margin-top: 200px;
+display: inline;
+position: fixed
+}
+
+.group {
+width: 10%;
+float: left;
+padding-top: 40px;
+padding-left: 35px;
+padding-right: 35px;
+color: #21429C;
+margin-top: 15%;
+margin-left: 20px;
+}
+
+.image2 {
+float: left;
+padding-left: 35px;
+padding-right: 35px;
+width: 5%;
+margin-left: 20px;
+margin-top: 200px;
+display: inline;
+position: fixed
+}
+
+.group1 {
+width: 10%;
+float: left;
+padding-top: 40px;
+padding-left: 35px;
+padding-right: 35px;
+color: #3D42A8;
+margin-top: 15%;
+}
+
+.image3 {
+float: left;
+padding-left: 35px;
+padding-right: 35px;
+width: 5%;
+margin-left: 20px;
+margin-top: 200px;
+display: inline;
+position: fixed
+}
+
+.group4 {
+width: 10%;
+float: left;
+padding-top: 40px;
+padding-left: 35px;
+padding-right: 35px;
+color: #7542A8;
+margin-top: 15%;
+}
+
+.image4 {
+float: left;
+padding-left: 35px;
+padding-right: 35px;
+width: 5%;
+margin-left: 20px;
+margin-top: 200px;
+display: inline;
+position: fixed
+}
+
+.group5 {
+width: 10%;
+float: left;
+padding-top: 40px;
+padding-left: 35px;
+padding-right: 35px;
+color: #80127D;
+margin-top: 15%;
+}
+
+.image5 {
+float: left;
+padding-left: 35px;
+padding-right: 35px;
+width: 5%;
+margin-left: 20px;
+margin-top: 200px;
+display: inline;
+position: fixed
+}
+
+.group6 {
+width: 10%;
+float: left;
+padding-top: 40px;
+padding-left: 35px;
+padding-right: 35px;
+color: #A6125C;
+margin-top: 15%;
+}
+
+.image6 {
+float: left;
+padding-left: 35px;
+padding-right: 35px;
+width: 5%;
+margin-left: 20px;
+margin-top: 200px;
+display: inline;
+position: fixed;
+z-index: 10;
+}
+
+
+.group7 {
+width: 10%;
+float: left;
+padding-top: 40px;
+padding-left: 35px;
+padding-right: 35px;
+color: #D4124F;
+margin-top: 15%;
+}
+
+img {
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 600px) {
+  }
+
+@media screen and (max-width: 480px) {
+  .container {
+  margin-left: 40px;
+  margin-top: 15px;
+}
+
+.title {
+  color: #21429C;
+  
+}
+
+.image1 {
+padding-left: 10px;
+padding-right: 35px;
+width: 18%;
+margin-left: 57px;
+margin-top: 50px;
+position: absolute;
+}
+
+.group {
+width: 80%;
+padding-top: 40px;
+padding-right: 35px;
+color: #21429C;
+margin-top: 15%;
+margin-left: -30px;
+display: block;
+}
+
+.image2 {
+padding-left: 10px;
+padding-right: 35px;
+width: 18%;
+margin-left: -270px;
+margin-top: 250px;
+position: absolute
+}
+
+.group1 {
+width: 80%;
+padding-top: 40px;
+padding-right: 35px;
+color: #3D42A8;
+margin-top: 50px;
+margin-left: -30px;
+display: block;
+}
+
+.image3 {
+padding-left: 10px;
+padding-right: 35px;
+width: 18%;
+margin-left: -270px;
+margin-top: 400px;
+position: absolute
+}
+
+.group4 {
+width: 80%;
+padding-top: 35px;
+padding-right: 35px;
+color: #7542A8;
+margin-top: 15%;
+margin-left: 10px;
+display: block;
+}
+
+.image4 {
+padding-left: 10px;
+padding-right: 35px;
+width: 18%;
+margin-left: -270px;
+margin-top: 580px;
+position: absolute
+}
+
+.group5 {
+width: 80%;
+padding-top: 35px;
+padding-right: 35px;
+color: #80127D;
+margin-top: 15%;
+margin-left: 10px;
+display: block;
+}
+
+.image5 {
+padding-left: 10px;
+padding-right: 35px;
+width: 18%;
+margin-left: -270px;
+margin-top: 730px;
+position: absolute
+}
+
+.group6 {
+width: 80%;
+padding-top: 35px;
+padding-right: 35px;
+color: #A6125C;
+margin-top: 15%;
+margin-left: 10px;
+display: block;
+}
+
+.image6 {
+padding-left: 10px;
+padding-right: 35px;
+width: 18%;
+margin-left: -270px;
+margin-top: 880px;
+position: absolute
+}
+
+
+.group7 {
+width: 80%;
+padding-top: 35px;
+padding-right: 35px;
+color: #D4124F;
+margin-top: 15%;
+margin-left: 10px;
+display: block;
+margin-bottom: 150px;
+}
+
+img {
+  width: 100%;
+}
+}
+
+@media screen and (max-width: 320px) {
+  }
+
+
