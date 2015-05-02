@@ -7,13 +7,13 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-font-smoothing: antialiased;
   -o-font-smoothing: antialiased;
-  font-size: 24px;
-  line-height: 28px;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 
 .container {
-  margin-left: 100px;
+  margin-left: 50px;
   margin-top: 15px;
 }
 
@@ -42,6 +42,7 @@ padding-right: 35px;
 color: #21429C;
 margin-top: 15%;
 margin-left: 20px;
+
 }
 
 .image2 {
@@ -83,7 +84,7 @@ padding-top: 40px;
 padding-left: 35px;
 padding-right: 35px;
 color: #7542A8;
-margin-top: 15%;
+margin-top: 14%;
 }
 
 .image4 {
@@ -104,7 +105,7 @@ padding-top: 40px;
 padding-left: 35px;
 padding-right: 35px;
 color: #80127D;
-margin-top: 15%;
+margin-top: 14%;
 }
 
 .image5 {
@@ -125,7 +126,7 @@ padding-top: 40px;
 padding-left: 35px;
 padding-right: 35px;
 color: #A6125C;
-margin-top: 15%;
+margin-top: 14%;
 }
 
 .image6 {
@@ -148,7 +149,7 @@ padding-top: 40px;
 padding-left: 35px;
 padding-right: 35px;
 color: #D4124F;
-margin-top: 15%;
+margin-top: 14%;
 }
 
 img {
