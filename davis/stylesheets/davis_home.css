@@ -14,9 +14,10 @@ p {
 	display: inline-block;
     vertical-align: top;
     text-align: left;
-    font-weight: bold;
     width: 250px;
 }
+
+
 
 .link1 {
 	font-family: times;
@@ -25,7 +26,6 @@ p {
 	display: inline-block;
     vertical-align: top;
     text-align: left;
-    font-weight: bold;
     width: 250px;
     color: blue;
 }
@@ -37,15 +37,66 @@ p {
 	display: inline-block;
     vertical-align: top;
     text-align: left;
-    font-weight: bold;
     width: 250px;
     color: black;
     text-decoration: line-through;
 }
 
-a {
+.link5 {
+	font-family: times;
+	font-size: 150px;
 	text-decoration: none;
+	display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    font-weight: bold;
+    width: 250px;
+    color: black;
+   
+}
+.link11 {
+	font-family: times;
+	font-size: 150px;
+	text-decoration: none;
+	display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    font-weight: bold;
+    width: 250px;
+    color: black;
+   
+}
+
+.link17 {
+	font-family: times;
+	font-size: 150px;
+	text-decoration: none;
+	display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    font-weight: bold;
+    width: 250px;
+    color: black;
+   
+}
+
+.link18 {
+	font-family: times;
+	font-size: 150px;
+	text-decoration: none;
+	display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    font-weight: bold;
+    width: 250px;
+    color: black;
+   
+}
+
+a {
 	color: black;
+	text-decoration: none;
+	
 }
 
 .list {
@@ -71,3 +122,4 @@ a.two {
 a.three {
 	color:blue;
 }
+

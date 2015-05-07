@@ -5,7 +5,8 @@ p {
 	font-size: 15px;
 	font-weight: normal;
 	line-height: 30px;
-	text-align: center
+	text-align: left;
+	
 }
 
 a {
@@ -20,4 +21,6 @@ a {
 
 .container {
 	margin-bottom: 200px;
+	margin-top: 40px;
+	margin-left: 35px;
 }

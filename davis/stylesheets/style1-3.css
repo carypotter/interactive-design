@@ -1,9 +1,8 @@
 /* STYLE ONE */
-
 .navigation1 {
   position: fixed;
   top: 25px;
-  left: 1158px;
+  right: 115px;
   display: inline;
   z-index: 10;
 }
@@ -11,7 +10,7 @@
 .navigation2 {
   position: fixed;
   top: 25px;
-  left: 1200px;
+  right: 70px;
   display: inline;
   z-index: 10;
 }
@@ -19,7 +18,7 @@
 .navigationthree {
   position: fixed;
   top: 25px;
-  left: 1242px;
+  right: 25px;
   display: inline;
   z-index: 10;
 }
